@@ -6,6 +6,8 @@ import { AxiosResponse } from 'axios';
 import request from './utils/request';
 import Config from './types/Config';
 
+export { Account };
+
 const CONFIG: Config = {
   disableListening: false,
   mailService: 'mail.tm'
