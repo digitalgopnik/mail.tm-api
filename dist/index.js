@@ -3,10 +3,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setConfig = exports.loginAccount = exports.createAccount = exports.fetchDomains = void 0;
+exports.setConfig = exports.loginAccount = exports.createAccount = exports.fetchDomains = exports.Account = void 0;
 const MailTMError_1 = __importDefault(require("./errors/MailTMError"));
 const getError_1 = __importDefault(require("./utils/getError"));
 const Account_1 = __importDefault(require("./classes/Account"));
+exports.Account = Account_1.default;
 const request_1 = __importDefault(require("./utils/request"));
 const CONFIG = {
     disableListening: false,

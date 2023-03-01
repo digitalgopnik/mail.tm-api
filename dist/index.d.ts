@@ -1,6 +1,7 @@
 import { Domain } from './types/common';
 import Account from './classes/Account';
 import Config from './types/Config';
+export { Account };
 export declare function fetchDomains<Random extends boolean = false>({ page, getRandomDomain }?: {
     page?: number;
     getRandomDomain?: Random;
